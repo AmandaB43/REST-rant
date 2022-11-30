@@ -2,6 +2,10 @@ const express = require('express')
 const app = express()
 const router =  express.Router()
 
+router.get('/new', (req, res) => {
+  res.render('places/new')
+})
+
 // GET /places
 router.get('/', (req, res) => {
    let places = [{

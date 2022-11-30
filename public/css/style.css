@@ -2,4 +2,8 @@ h1 {
     text-align: center;
     color: cornflowerblue;
   }
-  
+  .col-sm-6{
+    display: block;
+    flex-direction: row;
+  }
+  /*Need to do Part 4- learn to grid*/
