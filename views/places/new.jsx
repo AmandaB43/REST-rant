@@ -6,6 +6,7 @@ function new_form () {
         <Def>
           <main>
             <h1>Add a New Place</h1>
+
             <form method="POST" action="/places">
 
               <div className="form-group">
@@ -15,7 +16,7 @@ function new_form () {
 
               <div className="form-group">
                 <label htmlFor="pic">Place Picture</label>
-                <input className="form-control" type="url" id="pic" name="pic" />
+                <input className="form-control"  id="pic" name="pic" />
               </div>
 
               <div className="form-group">
