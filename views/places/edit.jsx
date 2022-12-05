@@ -11,29 +11,27 @@ function edit_form (data) {
               <div className="form-group">
                 <label htmlFor="name">Place Name</label>
                 <input 
-                className="form-control"  id="name" name="name"
-                value={data.place.name} 
-                required />
+                className="form-control"  id="name" name="name" defaultValue={data.place.name} required />
               </div>
 
               <div className="form-group">
                 <label htmlFor="pic">Place Picture</label>
-                <input className="form-control"  id="pic" name="pic" />
+                <input className="form-control"  id="pic" name="pic" defaultValue={data.place.pic} />
               </div>
 
               <div className="form-group">
                 <label htmlFor="city">City</label>
-                <input className="form-control" id="city" name="city" />
+                <input className="form-control" id="city" name="city" defaultValue={data.place.city} />
               </div>
 
               <div className="form-group">
                 <label htmlFor="state">State</label>
-                <input className="form-control" id="state" name="state" />
+                <input className="form-control" id="state" name="state" defaultValue={data.place.state} />
               </div>
 
               <div className="form-group">
                 <label htmlFor="cuisines">Cuisines</label>
-                <input className="form-control" id="cuisines" name="cuisines" required />
+                <input className="form-control" id="cuisines" name="cuisines" defaultValue={data.place.cuisines} required />
               </div>
 
                 <input className="btn btn-primary" type="submit" value="Add Place" />

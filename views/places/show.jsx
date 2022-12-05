@@ -30,8 +30,8 @@ function show (data) {
                   <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
                       <button type="submit" className="btn btn-danger">
                           Delete
-                        </button>
-                    </form> 
+                      </button>
+                    </form>
           </Def>
     )
 }
